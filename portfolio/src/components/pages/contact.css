@@ -1,3 +1,28 @@
 h2 {
     padding-top: 20px;
 }
+
+.form-control{
+    background: rgb(255, 255, 255);
+}
+
+.btn {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.contact {
+    padding-right: 10%;
+    padding-left: 10%;
+    color: white;
+    font-size: 15px;
+    line-height: 23px;
+ }
+
+ .form-group {
+    text-align: left;
+ }
