@@ -4,7 +4,7 @@ import "./header.css";
 function Header() {
   return (
     <div class="container intro">
-      <h1>Linnea Gear</h1>
+      <p class="myName">Linnea Gear</p>
     <br></br>
       <p>Welcome to my portfolio.</p>
       <p>I am a Phoenix based web developer with an art background.</p>

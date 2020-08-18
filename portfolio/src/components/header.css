@@ -1,10 +1,11 @@
 .intro {
     max-width: 70%;
-    margin-top: 15%;
+    margin-top: 10%;
     text-align: center;
+    color: #DBE8D4;
 }
 
-h1 {
+.myName {
     font-family: 'Titillium Web', sans-serif;
     font-size: 80px;
     color: #73CCA8;
