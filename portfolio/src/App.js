@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavTabs from "./components/NavTabs";
 import Home from "./components/pages/Home";
@@ -8,9 +8,17 @@ import Footer from "./components/Footer"
 import Wrapper from "./components/Wrapper"
 import About from "./components/pages/About"
 import Resume from "./components/pages/Resume"
+import project from "./projects.json"
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
+class App extends Component {
+ // Setting this.state.friends to the friends json array
+ state = {
+  project
+};
+
+render() {
   return (
     <Router>
       <div>
@@ -21,11 +29,23 @@ function App() {
           <Route exact path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
           <Route path="/resume" component={Resume} />
+          {this.state.project.map(item => (
+          <Projects
+            id={item.id}
+            key={item.id}
+            title={item.title}
+            info={item.info}
+            website={item.website}
+            github={item.github}
+            />
+            ))}
         </Wrapper>
+
         <Footer />
       </div>
     </Router>
   );
+}
 }
 
 export default App;

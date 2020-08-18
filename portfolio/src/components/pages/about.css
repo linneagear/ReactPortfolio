@@ -1,5 +1,22 @@
-.aboutSection {
+.container {
     font-family: "Josefin Sans",sans-serif;
     text-align: center;
     margin-top: 5%;
+    color: #DBE8D4;
+    max-width: 70%;
+}
+
+h3 {
+    font-family: 'Titillium Web', sans-serif;
+    color: #73CCA8;
+}
+
+.about {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.line {
+    border-top: 5px solid #DBE8D4;;
+    width: 200px;
 }

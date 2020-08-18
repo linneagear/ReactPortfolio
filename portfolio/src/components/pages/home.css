@@ -1,16 +1,19 @@
 .intro {
     max-width: 70%;
-    margin-top: 10%;
     text-align: center;
     color: #DBE8D4;
 }
 
 .myName {
     font-family: 'Titillium Web', sans-serif;
-    font-size: 80px;
+    font-size: 100px;
     color: #73CCA8;
 }
 
 p {
     font-family: "Josefin Sans",sans-serif;
+}
+
+h1 {
+    font-size: 50px;
 }

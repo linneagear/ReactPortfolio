@@ -1,30 +1,42 @@
 import React from "react";
 import "./about.css";
+import { Container } from "react-bootstrap";
 
 function About() {
   return (
-    <div class="container aboutSection">
-      <p>
-        <p>I am a recent graduate of University of Arizona's Coding Bootcamp.</p>
-        <h3>Front-end Developer</h3>
-        HTML
-        CSS
-        Javascript
-        React.js
-        jQuery
-        Bootstrap
-        Github
-   
-        <h3>Back-end Developer</h3>
+    <Container>
+      <p class="about">About</p>
+      <br></br>
+      <hr class="line"></hr>
+      <br></br>
+      <p>What started off as a hobby quickly
+      built
+      into
+      a
+      true passion of mine and I went
+      from
+        playing with HTML here and there, to building apps and websites.</p>
 
-        Node.js
-        SQL
-        MongoDB
-        Express.js
-        
+      <p>I am a recent graduate of University of Arizona's Coding Bootcamp.</p>
 
-    </p>
-    </div>
+    <br></br>
+      <h3>Front-end Developer</h3>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>React.js</li>
+        <li>jQuery</li>
+        <li>Bootstrap</li>
+        <li>Github</li>
+      
+      <br></br>
+      <h3>Back-end Developer</h3>
+        <li>Node.js</li>
+        <li>SQL</li>
+        <li>MondoDB</li>
+        <li>Express.js</li>
+
+    </Container>
   );
 }
 

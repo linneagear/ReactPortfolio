@@ -6,7 +6,7 @@ function Contact() {
     <div class="container">
       <div class="contact" id="contactSection">
         <div class="contactWrapper">
-          <h2>Contact</h2>
+        <p class="contact2">Contact</p>
           <hr />
           <div class="form-group">
             <label for="exampleFormControlInput1">Name</label>
