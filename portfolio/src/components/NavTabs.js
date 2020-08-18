@@ -1,34 +1,22 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
-import "./style.css";
+import { Navbar, Nav } from 'react-bootstrap';
 
 function NavTabs() {
-  const location = useLocation();
+
 
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
-        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
-          Home
-        </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/projects"
-          className={location.pathname === "/projects" ? "nav-link active" : "nav-link"}
-        >
-          Projects
-        </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/contact"
-          className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
-        >
-          Contact
-        </Link>
-      </li>
-    </ul>
+    <Navbar>
+    <Nav className="mr-auto">
+      <Nav.Link href="#home">Home</Nav.Link>
+      <Nav.Link href="#about">About</Nav.Link>
+      <Nav.Link href="#resume">Resume</Nav.Link>
+      <Nav.Link href="#contact">Contact</Nav.Link>
+      <Nav.Link href="https://www.linkedin.com/in/linnea-gear/"><i
+              class="fab fa-linkedin"></i></Nav.Link>
+      <Nav.Link href="https://github.com/linneagear"><i class="fab fa-github"></i></Nav.Link>
+    </Nav>
+
+  </Navbar>
   );
 }
 

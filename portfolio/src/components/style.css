@@ -14,14 +14,9 @@ div[data-reactroot] {
 
 .wrapper {
   min-height: 100%;
-  padding-bottom: 100px;
 }
-
-.footer {
-    background-color: black;
-  }
-  
-  .footer span {
+ 
+.footer span {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -31,12 +26,10 @@ div[data-reactroot] {
     color: rgb(74, 144, 190)
   }
 
-  nav.navbar.navbar-default {
-    margin-bottom: 0;
-  }
-
   li {
     list-style: none
   }
 
-  
+  p {
+    font-family: "Josefin Sans",sans-serif;
+  }

@@ -8,19 +8,19 @@ h2 {
 
 .btn {
     padding: 10px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(84, 95, 110);
     border-radius: 20px;
     border: none;
-    color: rgb(0, 0, 0);
-    font-family: 'Hind Madurai', sans-serif;
+    color: rgb(235, 240, 241);
+    font-family: "Josefin Sans",sans-serif;
 }
 
 .contact {
     padding-right: 10%;
     padding-left: 10%;
-    color: white;
     font-size: 15px;
     line-height: 23px;
+    font-family: "Josefin Sans",sans-serif;
  }
 
  .form-group {

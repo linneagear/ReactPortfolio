@@ -1,0 +1,14 @@
+.intro {
+    max-width: 70%;
+    margin-top: 15%;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 80px;
+}
+
+p {
+    font-family: "Josefin Sans",sans-serif;
+}
