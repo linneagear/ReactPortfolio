@@ -1,7 +1,6 @@
 import React from "react";
 import "./header.css";
 
-
 function Header() {
   return (
     <div class="container intro">

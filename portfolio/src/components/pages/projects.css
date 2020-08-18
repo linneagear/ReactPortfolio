@@ -1,0 +1,20 @@
+.card {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #222733;
+}
+
+.button {
+    padding: 10px;
+    background-color: rgb(74, 144, 190);
+    border-radius: 20px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.container {
+    max-width: 80%;
+    color: #DBE8D4;
+}

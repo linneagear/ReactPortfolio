@@ -14,16 +14,19 @@ div[data-reactroot] {
 
 .wrapper {
   min-height: 100%;
+  background-color: #222733;
+  color: #73CCA8;
 }
- 
-.footer span {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 10px;
-    text-align: center;
-    color: rgb(74, 144, 190)
+
+.footer {
+  font-size: 14px;
+  background-color: #222733;
+  color: #73CCA8;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  clear: both;
+  padding-top: 20px;
   }
 
   li {
@@ -32,4 +35,13 @@ div[data-reactroot] {
 
   p {
     font-family: "Josefin Sans",sans-serif;
+  }
+
+  .navbar {
+    background-color: #525e65;
+  }
+
+  .nav {
+    font-family: "Josefin Sans",sans-serif;
+    color: #DBE8D4;
   }
