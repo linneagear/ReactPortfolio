@@ -8,14 +8,13 @@ import Footer from "./components/Footer"
 import Wrapper from "./components/Wrapper"
 import About from "./components/pages/About"
 import Resume from "./components/pages/Resume"
-import project from "./projects.json"
+
 import projectWrapper from "./components/projectWrapper"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
  // Setting this.state.friends to the friends json array
- 
 
 render() {
   return (
@@ -29,8 +28,8 @@ render() {
           <Route path="/contact" component={Contact} />
           <Route path="/resume" component={Resume} />
           <projectWrapper />
+          <Footer />
         </Wrapper>
-        <Footer />
       </div>
     </Router>
   );

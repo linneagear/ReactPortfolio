@@ -1,5 +1,5 @@
 .intro {
-    max-width: 60%;
+    
     text-align: center;
     color: #DBE8D4;
 }
@@ -12,8 +12,17 @@
 
 p {
     font-family: "Josefin Sans",sans-serif;
+    font-size: 20px;
 }
 
 h1 {
     font-size: 50px;
+}
+
+.skills {
+    font-size: 18px;
+}
+
+.seperator {
+    font-size: 40px;
 }
