@@ -35,7 +35,7 @@ function About() {
         <li>SQL</li>
         <li>MondoDB</li>
         <li>Express.js</li>
-
+    <br></br>
     </Container>
   );
 }

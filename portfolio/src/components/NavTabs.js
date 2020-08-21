@@ -1,5 +1,4 @@
 import React from "react";
-import { Nav } from 'react-bootstrap';
 import { Link, useLocation } from "react-router-dom";
 import "./style.css"
 
@@ -7,28 +6,42 @@ function NavTabs() {
   const location = useLocation();
 
   return (
-    <div class="navbar">
-    <Nav className="mr-auto ">
-    <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
           Home
         </Link>
-        <Link to="/about" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+
+        <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
           About
         </Link>
-        <Link to="/projects" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+
+        <Link to="/projects" className={location.pathname === "/projects" ? "nav-link active" : "nav-link"}>
           Projects
         </Link>
-        <Link to="/resume" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+
+        <Link to="/resume" className={location.pathname === "/resume" ? "nav-link active" : "nav-link"}>
           Resume
         </Link>
-        <Link to="/contact" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+
+        <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
           Contact
         </Link>
-      <Nav.Link href="https://www.linkedin.com/in/linnea-gear/"><i
-              class="fab fa-linkedin"></i></Nav.Link>
-      <Nav.Link href="https://github.com/linneagear"><i class="fab fa-github"></i></Nav.Link>
-    </Nav>
-  </div>
+
+        <Link href="https://www.linkedin.com/in/linnea-gear/" className ="nav-link active"><i
+          class="fab fa-linkedin"></i></Link>
+
+        <Link href="https://github.com/linneagear" className ="nav-link active"><i class="fab fa-github"></i></Link>
+
+        </div>
+      </div>
+    </nav>
+
   );
 }
 

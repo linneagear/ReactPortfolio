@@ -9,14 +9,13 @@ import Wrapper from "./components/Wrapper"
 import About from "./components/pages/About"
 import Resume from "./components/pages/Resume"
 import project from "./projects.json"
+import projectWrapper from "./components/projectWrapper"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
  // Setting this.state.friends to the friends json array
- state = {
-  project
-};
+ 
 
 render() {
   return (
@@ -29,18 +28,8 @@ render() {
           <Route exact path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
           <Route path="/resume" component={Resume} />
-          {this.state.project.map(item => (
-          <Projects
-            id={item.id}
-            key={item.id}
-            title={item.title}
-            info={item.info}
-            website={item.website}
-            github={item.github}
-            />
-            ))}
+          <projectWrapper />
         </Wrapper>
-
         <Footer />
       </div>
     </Router>

@@ -8,7 +8,6 @@ import image from "../../images/goals.png"
 // import image5 from "../../images/scheduler.PNG"
 // import image6 from "../../images/notes.png"
 
-
 function Projects(props) {
   return (
     <Container>
