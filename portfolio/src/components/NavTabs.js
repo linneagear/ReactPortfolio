@@ -21,20 +21,9 @@ function NavTabs() {
           Projects
         </Link>
 
-        <Link to="../Linnea_Gear_Resume.pdf" className={location.pathname === "/resume" ? "nav-link active" : "nav-link"}>
-          Resume
-        </Link>
-
         <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
           Contact
         </Link>
-
-        {/* LinkedIn */}
-        <Link href="https://www.linkedin.com/in/linnea-gear/" className ="nav-link active"><i
-          class="fab fa-linkedin"></i></Link>
-
-        {/* GitHub */}
-        <Link href="https://github.com/linneagear" className ="nav-link active"><i class="fab fa-github"></i></Link>
 
         </div>
       </div>
