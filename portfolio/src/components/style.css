@@ -23,11 +23,10 @@ div[data-reactroot] {
   font-size: 12px;
   background-color: #222733;
   color: #73CCA8;
-  padding: 10px;
   text-align: center;
   position: relative;
   clear: both;
-  padding-top: 80px;
+  padding-top: 40px;
   }
 
   li {

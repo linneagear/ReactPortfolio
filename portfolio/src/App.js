@@ -6,10 +6,7 @@ import Contact from "./components/pages/Contact";
 import Projects from "./components/pages/Projects"
 import Footer from "./components/Footer"
 import Wrapper from "./components/Wrapper"
-import About from "./components/pages/About"
 import Resume from "./components/pages/Resume"
-
-import projectWrapper from "./components/projectWrapper"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -23,7 +20,6 @@ render() {
         <Wrapper>
           <NavTabs />
           <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
           <Route exact path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
           <Route path="/resume" component={Resume} />

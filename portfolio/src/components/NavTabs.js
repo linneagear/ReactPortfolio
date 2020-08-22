@@ -17,15 +17,11 @@ function NavTabs() {
           Home
         </Link>
 
-        <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
-          About
-        </Link>
-
         <Link to="/projects" className={location.pathname === "/projects" ? "nav-link active" : "nav-link"}>
           Projects
         </Link>
 
-        <Link to="/resume" className={location.pathname === "/resume" ? "nav-link active" : "nav-link"}>
+        <Link to="../Linnea_Gear_Resume.pdf" className={location.pathname === "/resume" ? "nav-link active" : "nav-link"}>
           Resume
         </Link>
 
@@ -33,9 +29,11 @@ function NavTabs() {
           Contact
         </Link>
 
+        {/* LinkedIn */}
         <Link href="https://www.linkedin.com/in/linnea-gear/" className ="nav-link active"><i
           class="fab fa-linkedin"></i></Link>
 
+        {/* GitHub */}
         <Link href="https://github.com/linneagear" className ="nav-link active"><i class="fab fa-github"></i></Link>
 
         </div>

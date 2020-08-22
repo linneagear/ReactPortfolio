@@ -1,7 +1,7 @@
 
 .projectCard {
     padding: 10px;
-    margin: 20px;
+    margin-bottom: 20px;
     text-align: center;
     color: #DBE8D4;
     background-color: #525e65;
@@ -14,4 +14,21 @@
     font-family: "Josefin Sans",sans-serif;
     color: white;
     border-radius: 10px;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    color: #DBE8D4;
+    padding-top: 40px;
+}
+
+.divider {
+    text-align: center;
+    width: 15%;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    border: 0;
+    border-top: 8px solid #DBE8D4;
 }

@@ -4,15 +4,15 @@ import "./contact.css"
 function Contact() {
   return (
     <div class="container">
-      <div class="contact" id="contactSection">
-        <div class="contactWrapper">
+      <div class="contact">
+        
         <p class="contact2">Contact</p>
-          <hr />
+          <br />
           <div class="form-group">
             <label for="exampleFormControlInput1">Name</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" />
           </div>
-        </div>
+        
         <div class="form-group">
           <label for="exampleFormControlInput1">Email address</label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
@@ -25,7 +25,7 @@ function Contact() {
 
         <button type="button" class="btn btn-outline-info">Submit</button>
       </div>
-      <br />
+      
     </div>
   );
 }

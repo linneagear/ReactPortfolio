@@ -1,25 +1,20 @@
-h2 {
-    padding-top: 20px;
-}
-
 .form-control{
     background: rgb(255, 255, 255);
 }
 
 .contact {
-    padding-right: 10%;
-    padding-left: 10%;
     font-size: 15px;
     line-height: 23px;
     font-family: "Josefin Sans",sans-serif;
     color: #DBE8D4;
  }
 
- .form-group {
+.form-group {
     text-align: left;
- }
+}
 
 .contact2 {
+    margin-top: 50px;
     font-size: 50px;
     font-weight: bolder;
  }
