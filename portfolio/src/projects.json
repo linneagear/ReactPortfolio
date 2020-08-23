@@ -4,7 +4,8 @@
         "title": "Wellyes App",
         "info": "The wellyes app is a helpful tool to track different goals by the user's choice to help with their mental health.",
         "website": "https://glacial-meadow-97517.herokuapp.com/",
-        "github": "https://github.com/linneagear/the-a-team-project-2"
+        "github": "https://github.com/linneagear/the-a-team-project-2",
+        "image": "./images/Capture.PNG"
     },
     {
         "id": 2,

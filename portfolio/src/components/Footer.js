@@ -4,8 +4,8 @@ import "./style.css";
 function Footer() {
   return (
     <footer className="footer">
-      <p class="footerLinks">
-        {/* add padding and spacing in between words */}
+      <section class="footerLinks">
+        
         {/* LinkedIn */}
         <a href="https://www.linkedin.com/in/linnea-gear/" ><i
           class="fab fa-linkedin"></i></a>
@@ -16,7 +16,7 @@ function Footer() {
         <a href="https://github.com/linneagear/Resume/raw/master/Linnea_Gear_Resume%20(2).pdf" >
           Resume
         </a>
-        </p>
+      </section>
       Made with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i>
       <br></br>
       <span >
