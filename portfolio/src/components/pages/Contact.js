@@ -5,27 +5,12 @@ function Contact() {
   return (
     <div class="container">
       <div class="contact">
-        
-        <p class="contact2">Contact</p>
           <br />
-          <div class="form-group">
-            <label for="exampleFormControlInput1">Name</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" />
-          </div>
-        
-        <div class="form-group">
-          <label for="exampleFormControlInput1">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+          <br />
+          
+          <a href="mailto:linneagear@gmail.com" class="btn btn-outline-info email-lnk">Email Me<i class="email"></i></a>
+          
         </div>
-
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Message</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-
-        <button type="button" class="btn btn-outline-info">Submit</button>
-      </div>
-      
     </div>
   );
 }
