@@ -5,7 +5,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Deployed Link
 
-[My Portfolio]()
+[My Portfolio](https://linneagear.netlify.app/)
 
-![My Portfolio Image]()
-
+![My Portfolio Image](./src/images/portfolio.JPG)
