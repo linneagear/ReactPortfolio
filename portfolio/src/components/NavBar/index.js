@@ -9,6 +9,7 @@ function NavTabs() {
 
   return (
     <>
+    <div className="global-nav">
       <Navbar className="container navbar justify-content-between flex-column flex-sm-row ">
         
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -36,6 +37,7 @@ function NavTabs() {
 
           </Nav>
       </Navbar>
+      </div>
     </>
   );
 }
