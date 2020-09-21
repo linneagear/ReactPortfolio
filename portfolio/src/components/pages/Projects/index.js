@@ -1,12 +1,12 @@
 import React from "react";
 import { Card } from 'react-bootstrap';
-import "./projects.css";
-import image from "../../images/goals.png"
-import image2 from "../../images/moveme.png"
-import image3 from "../../images/completedHTML.png"
-import image4 from "../../images/Capture.PNG"
-import image5 from "../../images/scheduler.PNG"
-import image6 from "../../images/budgetTracker.jpg"
+import "./style.css";
+import image from "../../../images/goals.png"
+import image2 from "../../../images/moveme.png"
+import image3 from "../../../images/completedHTML.png"
+import image4 from "../../../images/Capture.PNG"
+import image5 from "../../../images/scheduler.PNG"
+import image6 from "../../../images/budgetTracker.jpg"
 
 function Projects() {
   return (

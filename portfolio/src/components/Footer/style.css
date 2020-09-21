@@ -1,0 +1,11 @@
+.footer {
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    clear: both;
+    padding-top: 40px;
+  }
+  
+  .footerLinks {
+    font-size: 18px;
+  }

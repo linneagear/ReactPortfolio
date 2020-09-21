@@ -19,21 +19,6 @@ div[data-reactroot] {
   color: #73CCA8;
 }
 
-.footer {
-  font-size: 12px;
-  background-color: #222733;
-  color: #73CCA8;
-  text-align: center;
-  position: relative;
-  clear: both;
-  padding-top: 40px;
-}
-
-.footerLinks {
-  color: #DBE8D4;
-  font-size: 18px;
-}
-
   li {
     list-style: none
   }

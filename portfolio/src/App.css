@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Titillium+Web:wght@200;400;600;700;900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Titillium Web', Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, "Josefin Sans", sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+/* —————————————————————————————————————
+Typography
+———————————————————————————————————————*/
+
+h1 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 76%;
+    text-transform: uppercase;
+  }
+  
+h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 41px;
+  }
+
+h3 {
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 32px;
+  }
+  
+h4 {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+  
+h5 {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 120%;
+  }
+  
+p {
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+a:link {
+    color: #DBE8D4;
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: #DBE8D4;
+    text-decoration: none;
+  }
+
+li {
+    list-style: none
+  }

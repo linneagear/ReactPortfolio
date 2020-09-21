@@ -1,28 +1,29 @@
-import React, { Component } from "react";
+import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import NavTabs from "./components/NavTabs";
-import Home from "./components/pages/Home";
+import NavTabs from "./components/NavBar";
+import Home from "./components/pages/Homepage";
+import About from "./components/pages/About"
 import Contact from "./components/pages/Contact";
 import Projects from "./components/pages/Projects"
-import Footer from "./components/Footer"
+import Footer from "./components/Footer/index.js"
 import Wrapper from "./components/Wrapper"
+import "./App.css";
 
-class App extends Component {
-render() {
+function App() {
   return (
-    <Router>
-      <div>
-        <Wrapper>
+    <>
+      <Router>
+        {/* <Wrapper> */}
           <NavTabs />
           <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
           <Route exact path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
-          <Footer />
-        </Wrapper>
-      </div>
-    </Router>
+        {/* </Wrapper> */}
+      </Router>
+      <Footer />
+    </>
   );
-}
 }
 
 export default App;

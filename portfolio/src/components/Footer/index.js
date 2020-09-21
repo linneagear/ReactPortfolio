@@ -3,7 +3,9 @@ import "./style.css";
 
 function Footer() {
   return (
+
     <footer className="footer">
+       <div className="container">
       <section class="footerLinks">
         
         {/* LinkedIn */}
@@ -23,6 +25,7 @@ function Footer() {
       <span >
        2020 © LINNEA GEAR
      </span>
+     </div>
     </footer>
   );
 }
