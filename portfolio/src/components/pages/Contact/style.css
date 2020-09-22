@@ -1,8 +1,19 @@
-
 .contact {
     font-size: 15px;
     line-height: 23px;
     font-family: "Josefin Sans",sans-serif;
-    color: #DBE8D4;
+    /* color: #DBE8D4; */
     text-align: center;
+    margin-top: 100px;
+ }
+
+ .email-lnk {
+    background-color: transparent;
+    border: 1px solid var(--gray);
+    border-radius: 3px;
+    padding: 0.65rem 1rem;
+    font-family: "Josefin Sans",sans-serif;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
  }

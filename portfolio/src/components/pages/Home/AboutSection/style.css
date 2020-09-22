@@ -1,0 +1,25 @@
+.about {
+    max-width: 80%;
+    display: grid;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.aboutme_h3 {
+    font-size: 30px;
+}
+
+.avatarImg {
+    max-width: 320px;
+    text-align: center;
+    margin: 35px auto;
+}
+
+.skillsList {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    padding: 0px;
+    margin: 20px 0px 0px;
+    overflow: hidden;
+    list-style: none;
+}

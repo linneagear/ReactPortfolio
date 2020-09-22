@@ -2,7 +2,7 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import Resume from "../Resume"
+import Pdf from "../../Documents/resume.pdf";
 import "./style.css";
 
 function NavTabs() {
@@ -10,25 +10,24 @@ function NavTabs() {
 
   return (
     <>
-    {/* make sticky navbar to stay at top */}
-    <div className="global-nav">
-      <Navbar fixed="top" className="container navbar justify-content-between flex-column flex-sm-row ">
+      <div className="global-nav">
+        <Navbar className="container navbar justify-content-end flex-column flex-sm-row ">
           <Nav>
-          
-              <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
-                Home
+
+            <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+              Home
               </Link>
 
-              <Link to="/projects" className={location.pathname === "/projects" ? "nav-link active" : "nav-link"}>
-                Projects
+            <Link to="/projects" className={location.pathname === "/projects" ? "nav-link active" : "nav-link"}>
+              Projects
               </Link>
 
-              <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
-                Contact
+            <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
+              Contact
               </Link>
-            <Resume />
+            <a className="resume-button" href={Pdf} target="_blank">Resume</a>
           </Nav>
-      </Navbar>
+        </Navbar>
       </div>
     </>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import Pdf from "../../Documents/resume.pdf";
 import "./style.css";
 
 function Footer() {
@@ -15,6 +16,7 @@ function Footer() {
         {/* GitHub */}
         <a href="https://github.com/linneagear" ><i class="fab fa-github"></i></a>
         &nbsp; • &nbsp; 
+        <a href={Pdf} target="_blank">Resume</a>
       </section>
       <br></br>
       Made with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i>
