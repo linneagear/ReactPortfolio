@@ -1,8 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavTabs from "./components/NavBar";
-import Home from "./components/pages/Homepage";
-import About from "./components/pages/About"
+import Home from "./components/pages/Home/HomePage";
 import Contact from "./components/pages/Contact";
 import Projects from "./components/pages/Projects"
 import Footer from "./components/Footer/index.js"
@@ -16,7 +15,6 @@ function App() {
         {/* <Wrapper> */}
           <NavTabs />
           <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
           <Route exact path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
         {/* </Wrapper> */}

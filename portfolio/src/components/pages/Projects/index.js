@@ -10,14 +10,14 @@ import image6 from "../../../images/budgetTracker.jpg"
 
 function Projects() {
   return (
-    <div class="container">
+    <div className="container">
       <p className="title">Projects</p>
-      <hr class="divider"></hr>
+      <hr className="divider"></hr>
 
-      <div class="row">
+      <div className="row">
 
-        <div class="col">
-          <div class="projectCard" style={{ width: '20rem' }}>
+        <div className="col">
+          <div className="projectCard" style={{ width: '20rem' }}>
             <Card.Img variant="top" src={image} />
             <Card.Body >
               <Card.Title className="cardTitle">Wellyes App</Card.Title>
@@ -25,14 +25,14 @@ function Projects() {
                 The wellyes app is a helpful tool to track different goals by the user's choice, to help with their
                 mental health.
           </Card.Text>
-              <a type="button" class="btn btn-outline-info" href="https://glacial-meadow-97517.herokuapp.com/">Website</a>
-              <a type="button" class="btn btn-outline-info" href="https://github.com/linneagear/the-a-team-project-2">Repo</a>
+              <a type="button" className="btn btn-outline-info" href="https://glacial-meadow-97517.herokuapp.com/">Website</a>
+              <a type="button" className="btn btn-outline-info" href="https://github.com/linneagear/the-a-team-project-2">Repo</a>
             </Card.Body>
           </div>
         </div>
 
-        <div class="col">
-          <div class="projectCard" style={{ width: '20rem' }}>
+        <div className="col">
+          <div className="projectCard" style={{ width: '20rem' }}>
             <Card.Img variant="top" src={image2} />
             <Card.Body>
               <Card.Title className="cardTitle">Moving App</Card.Title>

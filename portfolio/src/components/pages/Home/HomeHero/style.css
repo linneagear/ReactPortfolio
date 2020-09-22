@@ -1,0 +1,28 @@
+.home-hero__bg {
+    color: #143642;
+    text-align: center;
+    height: 600px;
+    padding-top: 100px;
+}
+
+.home-hero__wrapper {
+    max-width: 350px;
+    margin: auto;
+}
+
+.home-hero__h1 {
+    font-family: 'Titillium Web', sans-serif;
+    transition: ease .2s;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+p {
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 20px;
+}
+
+.seperator {
+    font-size: 40px;
+}
+  
