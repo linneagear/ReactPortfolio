@@ -4,16 +4,13 @@
 }
 
 .resume-button {
-    color: var(--green);
     background-color: transparent;
-    border: 1px solid var(--green);
-    border-radius: var(--border-radius);
+    border: 1px solid var(--gray);
+    border-radius: 3px;
     padding: 0.75rem 1rem;
-    font-family: var(--font-mono);
+    font-family: "Josefin Sans",sans-serif;
     line-height: 1;
     text-decoration: none;
     cursor: pointer;
-    transition: var(--transition);
     margin-left: 15px;
-    font-size: var(--fz-xs);
 }

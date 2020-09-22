@@ -11,6 +11,7 @@ import image6 from "../../../images/budgetTracker.jpg"
 function Projects() {
   return (
     <div className="container">
+      <div id="projects">
       <p className="title">Projects</p>
       <hr className="divider"></hr>
 
@@ -112,6 +113,7 @@ function Projects() {
             </Card.Body>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

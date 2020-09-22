@@ -15,9 +15,6 @@ function Footer() {
         {/* GitHub */}
         <a href="https://github.com/linneagear" ><i class="fab fa-github"></i></a>
         &nbsp; • &nbsp; 
-        <a href="https://docs.google.com/document/d/e/2PACX-1vRYTEWiYMQCYFQmKXJWBaA1BX7f4_YSau9c0AcChcAJMUgiNyo80I804qtwyE_aDz8Ho97AfMMiM6pv/pub" >
-          Resume
-        </a>
       </section>
       <br></br>
       Made with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i>

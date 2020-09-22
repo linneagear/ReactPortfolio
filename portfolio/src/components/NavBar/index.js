@@ -2,6 +2,7 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import Resume from "../Resume"
 import "./style.css";
 
 function NavTabs() {
@@ -25,7 +26,7 @@ function NavTabs() {
               <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
                 Contact
               </Link>
-            <a href="/resume.pdf" className="resume-button">Resume</a>
+            <Resume />
           </Nav>
       </Navbar>
       </div>
