@@ -31,7 +31,7 @@ function AboutSection() {
 
                         {/* about section of my picture */}
                         <div className="col-sm-12 col-md-6">
-                            <img src={avatar} className="avatarImg" alt="headshot portrait of myself" />
+                            <img src={avatar} className="avatarImg" alt="headshot portrait of myself" loading="lazy"/>
                         </div>
                     </div>
                 </section>

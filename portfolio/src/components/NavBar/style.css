@@ -4,6 +4,12 @@
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: #dbe8d4;
+    transition: .5s ease;
+}
+
+.navbar-light:hover .navbar-nav:hover .active>.nav-link:hover, .navbar-light:hover .navbar-nav:hover .nav-link.active:hover {
+    color: #588674;
+    transition: .5s ease;
 }
 
 .resume-button {
@@ -16,4 +22,9 @@
     text-decoration: none;
     cursor: pointer;
     margin-left: 15px;
+}
+
+.resume-button:hover {
+    background-color:  #dbe8d4;
+    transition: .5s ease;
 }

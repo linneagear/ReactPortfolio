@@ -17,6 +17,7 @@
 .avatarImg {
     max-width: 320px;
     border-radius: 10px;
+    box-shadow: 4px 4px 4px #13161d;
 }
 
 .skillsList {

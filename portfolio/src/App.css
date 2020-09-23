@@ -67,9 +67,15 @@ a:visited {
     text-decoration: none;
   }
 
+a:hover {
+    color: #73cca8;
+    transition: .5s ease;
+}
+
 li {
     list-style: none
-  }
+}
+
 
   /* width */
 ::-webkit-scrollbar {
