@@ -70,3 +70,19 @@ a:visited {
 li {
     list-style: none
   }
+
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:  #73cca8;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5ba084;
+}

@@ -5,7 +5,7 @@ import image2 from "../../../images/goals.png"
 import image3 from "../../../images/burger.PNG"
 import image4 from "../../../images/budgetTracker.jpg"
 import image5 from "../../../images/moveme.png"
-import image6 from "../../../images/completedHTML.png"
+import image6 from "../../../images/completedHTML.jpg"
 
 function Projects() {
   return (
@@ -35,9 +35,8 @@ function Projects() {
             <div class="card" >
               <img src={image2} className="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">Wellyes</h5>
-                  <p class="card-text"> The wellyes app is a helpful tool to track different goals by the user's choice, to help with their
-                  mental health.</p>
+                  <h5 class="card-title">well<b>yes</b>.</h5>
+                  <p class="card-text"> well<b>yes</b> is a helpful tool to track different goals by the user's choice, to make sure their mental health needs are being met.</p>
                   <a href="https://github.com/linneagear/wellYes" ><i class="fab fa-github icon"></i></a>
                   <a href="https://glacial-meadow-97517.herokuapp.com/" ><i class="fas fa-globe icon"></i></a>
                   <p className="techUsed">Node.js • Express • Charts.js • Handlebars</p>
@@ -99,7 +98,7 @@ function Projects() {
               <img src={image6} className="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">Template Engine</h5>
-                  <p class="card-text">This application is a software engineering team generator command line application. It will prompt the user for information about the team manager and then information about the team
+                  <p class="card-text">A software engineering team generator command line application. It will prompt the user for information about the team manager and then information about the team
                     members.</p>
                   <a href="https://github.com/linneagear/templateEngine"><i class="fab fa-github icon"></i></a>
                   <a href="https://www.youtube.com/watch?v=1m_SW-wQEZY&feature=youtu.be" ><i class="fas fa-globe icon"></i></a>
@@ -111,7 +110,8 @@ function Projects() {
 
         </div>
         <br></br>
-        <p>See my other projects <b ><a href="https://github.com/linneagear" className="link">here.</a></b></p>
+        <br></br>
+        <p className="outro">See my other projects <b ><a href="https://github.com/linneagear">here.</a></b></p>
 
       </section>
     </div>
