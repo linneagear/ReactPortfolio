@@ -7,7 +7,7 @@ function Footer() {
 
     <footer className="footer">
        <div className="container">
-      <section class="footerLinks">
+      <div class="footerLinks">
         
         {/* LinkedIn */}
         <a href="https://www.linkedin.com/in/linnea-gear/" ><i
@@ -17,7 +17,7 @@ function Footer() {
         <a href="https://github.com/linneagear" ><i class="fab fa-github"></i></a>
         &nbsp; • &nbsp; 
         <a href={Pdf} target="_blank">Resume</a>
-      </section>
+      </div>
       <br></br>
       Made with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i>
       <br></br>

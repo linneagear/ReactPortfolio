@@ -14,15 +14,15 @@ function NavTabs() {
         <Navbar className="container navbar justify-content-end flex-column flex-sm-row ">
           <Nav>
 
-            <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+            <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link active"}>
               Home
               </Link>
 
-            <Link to="/projects" className={location.pathname === "/projects" ? "nav-link active" : "nav-link"}>
+            <Link to="/projects" className={location.pathname === "/projects" ? "nav-link active" : "nav-link active"}>
               Projects
               </Link>
 
-            <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
+            <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link active"}>
               Contact
               </Link>
             <a className="resume-button" href={Pdf} target="_blank">Resume</a>

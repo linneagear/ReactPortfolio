@@ -1,120 +1,119 @@
 import React from "react";
-import { Card } from 'react-bootstrap';
 import "./style.css";
-import image from "../../../images/goals.png"
-import image2 from "../../../images/moveme.png"
-import image3 from "../../../images/completedHTML.png"
-import image4 from "../../../images/Capture.PNG"
-import image5 from "../../../images/scheduler.PNG"
-import image6 from "../../../images/budgetTracker.jpg"
+import image from "../../../images/driverkick.JPG"
+import image2 from "../../../images/goals.png"
+import image3 from "../../../images/burger.PNG"
+import image4 from "../../../images/budgetTracker.jpg"
+import image5 from "../../../images/moveme.png"
+import image6 from "../../../images/completedHTML.png"
 
 function Projects() {
   return (
     <div className="container">
-      <div id="projects">
-      <p className="title">Projects</p>
-      <hr className="divider"></hr>
+      <section className="projects">
 
-      <div className="row">
+        <p className="title">Projects</p>
+        <hr className="divider" />
 
-        <div className="col">
-          <div className="projectCard" style={{ width: '20rem' }}>
-            <Card.Img variant="top" src={image} />
-            <Card.Body >
-              <Card.Title className="cardTitle">Wellyes App</Card.Title>
-              <Card.Text>
-                The wellyes app is a helpful tool to track different goals by the user's choice, to help with their
-                mental health.
-          </Card.Text>
-              <a type="button" className="btn btn-outline-info" href="https://glacial-meadow-97517.herokuapp.com/">Website</a>
-              <a type="button" className="btn btn-outline-info" href="https://github.com/linneagear/the-a-team-project-2">Repo</a>
-            </Card.Body>
+        {/* First project row */}
+
+        <div className="row">
+          <div class="col-md-6 col-sm-12 col-xs-12 projectCard">
+            <div class="card" >
+              <img src={image} className="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Driverkick</h5>
+                  <p class="card-text">A vehicle maintenance tracker that uses the VIN API to pull up a user’s vehicle info, allowing them to see a dashboard of features including their mileage, oil change tracking, and warranty information.</p>
+                  <a href="https://github.com/linneagear/DRIVERkick" ><i class="fab fa-github icon"></i></a>
+                  <a href="https://driverkick.herokuapp.com/" ><i class="fas fa-globe icon"></i></a>
+                  <p className="techUsed">React • MongoDB • Express • Passport</p>
+                </div>
+              </div>
+            </div>
+
+          <div class="col-md-6 col-sm-12 col-xs-12 projectCard">
+            <div class="card" >
+              <img src={image2} className="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Wellyes</h5>
+                  <p class="card-text"> The wellyes app is a helpful tool to track different goals by the user's choice, to help with their
+                  mental health.</p>
+                  <a href="https://github.com/linneagear/wellYes" ><i class="fab fa-github icon"></i></a>
+                  <a href="https://glacial-meadow-97517.herokuapp.com/" ><i class="fas fa-globe icon"></i></a>
+                  <p className="techUsed">Node.js • Express • Charts.js • Handlebars</p>
+                </div>
+              </div>
           </div>
         </div>
 
-        <div className="col">
-          <div className="projectCard" style={{ width: '20rem' }}>
-            <Card.Img variant="top" src={image2} />
-            <Card.Body>
-              <Card.Title className="cardTitle">Moving App</Card.Title>
-              <Card.Text>
-                The MoveMe app is a helpful tool for finding movers, storage, or where to rent a truck in your area.
-           </Card.Text>
-              <a class="btn btn-outline-info" href="https://move-me-by-glass.netlify.app/">Website</a>
-              <a type="button" class="btn btn-outline-info" href="https://github.com/Dayman628/move-me">Repo</a>
-            </Card.Body>
+
+        {/* Second project row */}
+
+        <div className="row">
+          <div class="col-md-6 col-sm-12 col-xs-12 projectCard">
+            <div class="card" >
+              <img src={image3} className="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Burger App</h5>
+                  <p class="card-text">A fun application that allows users to input burger types they would like to eat and "Devour it!"</p>
+                  <a href="https://github.com/linneagear/burger"><i class="fab fa-github icon"></i></a>
+                  <a href="https://agile-shelf-65251.herokuapp.com/" ><i class="fas fa-globe icon"></i></a>
+                  <p className="techUsed">MySQL • Express • Handlebars</p>
+                </div>
+              </div>
+            </div>
+
+          <div class="col-md-6 col-sm-12 col-xs-12 projectCard">
+            <div class="card" >
+              <img src={image4} className="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Budget Tracker</h5>
+                  <p class="card-text">This budget tracker allows the user to be able to add expenses and deposits to their budget with or without a connection.</p>
+                  <a href="https://github.com/linneagear/PWA_BudgetTracker" ><i class="fab fa-github icon"></i></a>
+                  <a href="https://aqueous-thicket-75974.herokuapp.com/" ><i class="fas fa-globe icon"></i></a>
+                  <p className="techUsed">IndexedDB • MongoDB • Express</p>
+                </div>
+              </div>
           </div>
         </div>
 
-        <div class="col">
-          <div class="projectCard" style={{ width: '20rem' }}>
-            <Card.Img variant="top" src={image3} />
-            <Card.Body>
-              <Card.Title className="cardTitle">Template Engine</Card.Title>
-              <Card.Text>
-                This application is a software engineering team generator command line application. The application
-                will prompt the user for information about the team manager and then information about the team
-                members.
-           </Card.Text>
-              <a type="button" class="btn btn-outline-info" href="https://www.youtube.com/watch?v=1m_SW-wQEZY&feature=youtu.be">Video Demo</a>
-              <a type="button" class="btn btn-outline-info" href="https://github.com/linneagear/templateEngine">Repo</a>
-            </Card.Body>
+
+        {/* Third project row */}
+
+        <div className="row">
+          <div class="col-md-6 col-sm-12 col-xs-12 projectCard">
+            <div class="card" >
+              <img src={image5} className="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">MoveMe</h5>
+                  <p class="card-text">MoveMe is an application for finding movers, storage, or where to rent a truck in your area.</p>
+                  <a href="https://github.com/Dayman628/move-me"><i class="fab fa-github icon"></i></a>
+                  <a href="https://move-me-by-glass.netlify.app/" ><i class="fas fa-globe icon"></i></a>
+                  <p className="techUsed">Javascript • Bulma • APIs</p>
+                </div>
+              </div>
+            </div>
+
+          <div class="col-md-6 col-sm-12 col-xs-12 projectCard">
+            <div class="card" >
+              <img src={image6} className="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Template Engine</h5>
+                  <p class="card-text">This application is a software engineering team generator command line application. It will prompt the user for information about the team manager and then information about the team
+                    members.</p>
+                  <a href="https://github.com/linneagear/templateEngine"><i class="fab fa-github icon"></i></a>
+                  <a href="https://www.youtube.com/watch?v=1m_SW-wQEZY&feature=youtu.be" ><i class="fas fa-globe icon"></i></a>
+                  <br></br>
+                  <p className="techUsed">Node.js • Jest • Javascript</p>
+                </div>
+              </div>
           </div>
+
         </div>
-      </div>
+        <br></br>
+        <p>See my other projects <b ><a href="https://github.com/linneagear" className="link">here.</a></b></p>
 
-
-      <div class="row">
-
-        <div class="col">
-          <div class="projectCard" style={{ width: '20rem' }}>
-            <Card.Img variant="top" src={image4} />
-            <Card.Body>
-              <Card.Title className="cardTitle">Burger App</Card.Title>
-              <Card.Text>
-                This application is a burger logger that uses MySQL, Node, Express, Handlebars and a homemade ORM.
-                It
-                follows an MVC design pattern and uses Node and MySQL to query and route data, and Handlebars to
-                generate
-                the HTML.
-            </Card.Text>
-              <a type="button" class="btn btn-outline-info" href="https://agile-shelf-65251.herokuapp.com/">Website</a>
-              <a type="button" class="btn btn-outline-info" href="https://github.com/linneagear/burger">Repo</a>
-            </Card.Body>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="projectCard" style={{ width: '20rem' }}>
-            <Card.Img variant="top" src={image5} />
-            <Card.Body>
-              <Card.Title className="cardTitle">Work Day Scheduler</Card.Title>
-              <Card.Text>
-                This work day scheduler allows the user to enter events into each time slot, and save that event for
-                when
-                they next use it.
-            </Card.Text>
-              <a type="button" class="btn btn-outline-info" href="https://linneagear.github.io/WorkDayScheduler/">Website</a>
-              <a type="button" class="btn btn-outline-info" href="https://github.com/linneagear/WorkDayScheduler">Repo</a>
-            </Card.Body>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="projectCard" style={{ width: '20rem' }}>
-            <Card.Img variant="top" src={image6} />
-            <Card.Body>
-              <Card.Title className="cardTitle">PWA Budget Tracker</Card.Title>
-              <Card.Text>
-                This Budget tracker allows the user to be able to add expenses and deposits to their budget with or without a connection.
-                  </Card.Text>
-              <a type="button" class="btn btn-outline-info" href="https://aqueous-thicket-75974.herokuapp.com/">Website</a>
-              <a type="button" class="btn btn-outline-info" href="https://github.com/linneagear/PWA_BudgetTracker">Repo</a>
-            </Card.Body>
-          </div>
-        </div>
-      </div>
-      </div>
+      </section>
     </div>
   );
 };

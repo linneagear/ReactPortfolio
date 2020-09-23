@@ -2,6 +2,9 @@
     padding-top: 20px;
     font-family: "Josefin Sans",sans-serif;
 }
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #dbe8d4;
+}
 
 .resume-button {
     background-color: transparent;
@@ -13,5 +16,4 @@
     text-decoration: none;
     cursor: pointer;
     margin-left: 15px;
-    
 }

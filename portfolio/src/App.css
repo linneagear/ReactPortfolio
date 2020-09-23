@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Titillium+Web:wght@200;400;600;700;900&display=swap');
 
+*, :after, :before {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: 'Titillium Web', Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, "Josefin Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
+  background-color: #222733;
+  color: #73cca8;
 }
 
 /* —————————————————————————————————————
@@ -24,6 +30,7 @@ h2 {
     font-size: 36px;
     line-height: 41px;
   }
+
 
 h3 {
     font-weight: normal;
@@ -51,12 +58,12 @@ p {
   }
 
 a:link {
-    color: #000000;
+    color: #dbe8d4;
     text-decoration: none;
   }
   
 a:visited {
-    color: #000000;
+    color: #dbe8d4;
     text-decoration: none;
   }
 

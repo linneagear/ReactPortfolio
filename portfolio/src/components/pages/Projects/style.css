@@ -1,39 +1,50 @@
-
-.projectCard {
-    padding: 10px;
-    margin-bottom: 20px;
+section {
+    margin: 0px auto;
+    padding: 60px 0px;
+    max-width: 1000px;
     text-align: center;
     color: #DBE8D4;
-    background-color: #525e65;
-    font-family: "Josefin Sans",sans-serif;
-    border-radius: 10px;
 }
 
-.btn {
-    margin: 10px;
-    font-family: "Josefin Sans",sans-serif;
-    color: #DBE8D4;
-    border-radius: 10px;
+.projectCard {
+    padding: 20px;
+}
+
+.card {
+    background-color: rgb(56, 65, 78);
+}
+
+.card-img-top {
+    max-height: 400px;
+}
+
+.icon {
+    padding: 10px;
+    font-size: 35px;
+    padding-bottom: 20px;
 }
 
 .title {
     font-size: 50px;
     font-weight: bolder;
     text-align: center;
-    color: #DBE8D4;
-    padding-top: 40px;
+
+}
+
+.card-title {
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
 }
 
 .divider {
-    text-align: center;
     width: 15%;
     margin-top: 3rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     border: 0;
-    border-top: 8px solid #DBE8D4;
+    border-top: 8px solid #dbe8d4;
 }
 
-.cardTitle {
-    font-weight: bold;
-    font-size: 24px;
+.techUsed {
+    color: #81837f;
 }

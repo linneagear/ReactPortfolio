@@ -14,12 +14,15 @@
     font-family: 'Titillium Web', sans-serif;
     transition: ease .2s;
     margin-top: 50px;
-    font-size: 50px;
+    font-size: 70px;
+    line-height: 1em;
+    color: #73cca8;
 }
 
 p {
     font-family: "Josefin Sans",sans-serif;
     font-size: 20px;
+    color: #dbe8d4;
 }
 
 .seperator {

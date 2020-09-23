@@ -1,5 +1,5 @@
 import React from "react";
-import avatar from "../../../../images/avatar.jpg"
+import avatar from "../../../../images/portrait.jpg"
 import "./style.css";
 
 
@@ -11,13 +11,13 @@ function AboutSection() {
                 <section class="about">
                 <h3 className="aboutme_h3">About Me</h3>
                 <br></br>
-                    <div class="row">
+                    <div className="row">
                         
                         {/* About section with info text */}
-                        <div className="col-sm-12 col-md-6">
-                            <p className="aboutIntro">Hello! I'm Linnea, a software engineer based in Phoenix, Arizona.</p>
+                        <div className="col-sm-12 col-md-6 aboutIntro">
+                            <p>Hello! I'm Linnea, a software engineer based in Phoenix, Arizona.</p>
                             <p>Shortly after graduating from <b>Northern Arizona University</b>, I focused on programming as well as being a freelance digital artist.</p>
-                            <p>I enjoy creating things and problem solving, whether that be websites or applications.</p>
+                            <p>I enjoy creating things, whether that be websites or applications, or artistic renderings of characters!</p>
                             <p>Here are a few technologies I am familiar with:</p>
                             <ul className="skillsList">
                                 <li>• Javascript</li>
