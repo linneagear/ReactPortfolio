@@ -14,10 +14,10 @@ function AboutSection() {
                     <div className="row">
                         
                         {/* About section with info text */}
-                        <div className="col-sm-12 col-md-6 aboutIntro">
-                            <p>Hello! I'm Linnea, a software engineer based in Phoenix, Arizona.</p>
-                            <p>Shortly after graduating from <b>Northern Arizona University</b>, I focused on programming as well as being a freelance digital artist.</p>
-                            <p>I enjoy creating things, whether that be websites or applications, or artistic renderings of characters!</p>
+                        <div className="col-md-6 col-sm-12 col-xs-12 aboutIntro">
+                            <p>Hello! I'm Linnea, a web developer based in Phoenix, Arizona.</p>
+                            <p>Shortly after graduating from <b>Northern Arizona University</b> with a Bachelor's in Chemistry, I focused on freelance illustration work while working full time as a Formulations Specialist.</p>
+                            <p>I am interested in all things software developement, whether that be design or server-side and data analytics.</p>
                             <p>Here are a few technologies I am familiar with:</p>
                             <ul className="skillsList">
                                 <li>• Javascript</li>
@@ -30,7 +30,7 @@ function AboutSection() {
                         </div>
 
                         {/* about section of my picture */}
-                        <div className="col-sm-12 col-md-6">
+                        <div className="col-md-6 col-sm-12 col-xs-12">
                             <img src={avatar} className="avatarImg" alt="headshot portrait of myself" loading="lazy"/>
                         </div>
                     </div>

@@ -15,7 +15,7 @@ function HomeHero() {
                     .......................
                 </p>
               
-                <p>I am a software engineer based in Phoenix, AZ specializing in building and designing websites and applications.</p>
+                <p>I am a web developer based in Phoenix, AZ specializing in building and designing websites and applications.</p>
                 </div>
             </header>
         </>

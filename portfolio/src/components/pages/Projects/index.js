@@ -35,8 +35,8 @@ function Projects() {
             <div class="card" >
               <img src={image2} className="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">well<b>yes</b>.</h5>
-                  <p class="card-text"> well<b>yes</b> is a helpful tool to track different goals by the user's choice, to make sure their mental health needs are being met.</p>
+                  <h5 class="card-title">wellyes.</h5>
+                  <p class="card-text"> wellyes is a helpful tool to track different goals by the user's choice, to make sure their mental health needs are being met.</p>
                   <a href="https://github.com/linneagear/wellYes" ><i class="fab fa-github icon"></i></a>
                   <a href="https://glacial-meadow-97517.herokuapp.com/" ><i class="fas fa-globe icon"></i></a>
                   <p className="techUsed">Node.js • Express • Charts.js • Handlebars</p>
@@ -88,7 +88,7 @@ function Projects() {
                   <p class="card-text">MoveMe is an application for finding movers, storage, or where to rent a truck in your area.</p>
                   <a href="https://github.com/Dayman628/move-me"><i class="fab fa-github icon"></i></a>
                   <a href="https://move-me-by-glass.netlify.app/" ><i class="fas fa-globe icon"></i></a>
-                  <p className="techUsed">Javascript • Bulma • APIs</p>
+                  <p className="techUsed">Javascript • HTML/CSS • Bulma • APIs</p>
                 </div>
               </div>
             </div>
