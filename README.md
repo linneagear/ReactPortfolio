@@ -16,7 +16,7 @@ I'm Linnea Gear - a self employed artist with experience in Lean Manufacturing a
 
 🌱 <b>I am currently learning:</b>
 - SASS
-- Python
+- React
 
 
 ## Connect with me 📫
